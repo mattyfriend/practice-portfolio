@@ -11,10 +11,6 @@ html, body {
 
 /* Bootstrap Overrides */
 
-#bootstrap-overrides {
-	
-}
-
 #bootstrap-overrides .col-sm {
 	text-align: center;
 	background-color: gray;
@@ -22,6 +18,10 @@ html, body {
 	margin: 20px;
 	padding: 10px;
 	
+}
+
+#lil-face {
+  width: 100%;
 }
 
 /* Parallax Scrolling Image */
@@ -129,14 +129,10 @@ html, body {
 
 /* Media Queries */
 
-@media only screen and (min-width: 0px) and (max-width: 400px) {
-	#mainName {
-		display: none;
-	}
+@media (min-width: 0px) and (max-width: 600px) {
+
 }
 
-@media only screen and (min-width: 401px) {
-	#mainName {
-		display: block;
-	}
+@media (min-width: 601px) {
+	
 }
